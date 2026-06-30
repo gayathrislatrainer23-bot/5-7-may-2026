@@ -40,6 +40,6 @@ function buttonClick(){
 document.getElementById('btn-click').style.backgroundColor = 'green'
 }
 
-// document.getElementById('btn').addEventListener('click',buttonClick)
+ document.getElementById('btn').addEventListener('click',buttonClick)
                                
 // counter

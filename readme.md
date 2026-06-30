@@ -533,10 +533,24 @@ let doubleNums = nums.map(
 
 
 
+// callback function
+a fun passing to an another function as an argument to execute later.
+
+function parent(child){
+
+  
+  child()
+
+}
 
 
+function child(){
 
+}
 
+function main (callback){
+
+}
 
 
 
