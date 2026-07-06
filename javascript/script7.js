@@ -75,3 +75,7 @@ if(count ===0){
     clearInterval(countDown)
 }
 },1000)
+
+// task:1
+// image slider
+// document.getelementbyid().src = 
