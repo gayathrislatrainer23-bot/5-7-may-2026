@@ -1,18 +1,18 @@
 
-const Child = ({userAge,userName,arr, person:{name,age}})=>{
+const Child = ({ userAge, userName, arr, person: { name, age } }) => {
     // console.log(props)
     // console.log(props.userAge)
 
-    return(
+    return (
         <div className="child">
-{/* <p>{props.userAge}</p> */}
-{userAge}
-<p>{userName}</p>
-<p>{arr}</p>
-<p>{name}: {age}</p>
+            {/* <p>{props.userAge}</p> */}
+            {userAge}
+            <p>{userName}</p>
+            <p>{arr}</p>
+            <p>{name}: {age}</p>
 
         </div>
     )
 }
 
-export default  Child;
+export default Child;
