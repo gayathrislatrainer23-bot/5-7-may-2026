@@ -1,7 +1,10 @@
-const LoginPage = ()=>{
+
+
+const LoginPage = ({isLoggin})=>{
+
     return(
         <div className="">
-<button>login</button>
+<button>{isLoggin ? 'login' : 'signup'}</button>
         </div>
     )
 }

@@ -4,6 +4,8 @@ import BoxModel from './components/BoxModel'
 import Child from './components/Child'
 import LoginPage from './components/LoginPage.jsx'
 import Register from './components/Register'
+import StudentsList from './components/StudentsList.jsx'
+import VegetablesList from './components/VegetablesList.jsx'
 import WeatherInfo from './components/WeatherInfo'
 function App() {
   let age = 23
@@ -13,6 +15,7 @@ let person = {
   name : 'seetha',
   age : 34
 }
+let isLoggin = false;
 let statusOfUser = 'old'; 
 let user = 'admin'
   return (
@@ -22,14 +25,17 @@ let user = 'admin'
 {/* <BoxModel/> */}
 {/* <Child userAge = {age} userName = {userName} arr = {arr}  person = {person}/>
 <WeatherInfo/> */}
-{
+{/* {
   statusOfUser === 'new' ? <Register/> : <LoginPage/>
 }
 {
   user === 'admin' && <AdminDashBoard/>
 }
- 
+  */}
 
+{/* <LoginPage isLoggin={isLoggin}/> */}
+{/* <StudentsList/> */}
+<VegetablesList/>
 </div>
 
   )

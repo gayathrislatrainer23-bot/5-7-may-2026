@@ -62,6 +62,10 @@ Props
 
 "Welcome back!" if isLoggedIn is true, otherwise show "Please login".
 
+task: hide and show
+p--> 'hai welcome'
+ishow true 
+
 
  3: Colors with Array Prop
  Pass an array of colors as a prop (example: ["Red", "Blue", "green"]).
@@ -78,6 +82,8 @@ colorSecondary(){
 }
 
 list 
+veggies = ["carrot","potato"]
+
 vegetables =[
   {
     name: "carrot",
