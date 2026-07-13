@@ -118,3 +118,58 @@ Roll No  Name    Grade
 2       Rahul      B
 3       Deepak     A+
 
+<!-- 13/7/2026 -->
+Events  in React?
+An Event is an action performed by the user or something that happens in the browser, like:
+Clicking a button
+Typing in an input
+Submitting a form
+Moving the mouse
+Pressing a key
+
+Event Type
+Example
+onClick
+     When user clicks a button
+onChange
+     When user types in an input
+onSubmit
+      When user submits a form
+onMouseOver
+     When mouse hovers over an element
+onKeyDown
+      When a key is pressed
+
+
+
+hooks: special fun:s used to state management ,life cycle metnods and  side effect
+State : spacial memory inside comp that hold data which can change over time
+useState : hook used to manage state.
+
+const [state, setState] = useState(0)
+events:action performed by user
+synthetic events : react wrap html events.
+
+
+let  age = 30
+   age = 45
+   fun  -- useState ()  --- hook
+
+
+useState : hook used to manage state.
+
+import {useState} from ' react'
+
+                    let  [CurrentState,SetState] = useState(initialValue)
+                        [age,setAge] = useState(30)
+                      setAge(45)
+                      age =45
+                      setAge(age+2)
+
+
+
+                        [msg ,setMsg] = useState('hello')
+
+onClick 
+OnClick
+

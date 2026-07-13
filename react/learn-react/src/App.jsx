@@ -3,7 +3,9 @@ import AdminDashBoard from './components/AdminDashBoard.jsx'
 import BoxModel from './components/BoxModel'
 import Child from './components/Child'
 import LoginPage from './components/LoginPage.jsx'
+import Message from './components/Message.jsx'
 import Register from './components/Register'
+import Show from './components/Show.jsx'
 import StudentsList from './components/StudentsList.jsx'
 import VegetablesList from './components/VegetablesList.jsx'
 import WeatherInfo from './components/WeatherInfo'
@@ -35,7 +37,9 @@ let user = 'admin'
 
 {/* <LoginPage isLoggin={isLoggin}/> */}
 {/* <StudentsList/> */}
-<VegetablesList/>
+{/* <VegetablesList/> */}
+{/* <Message/> */}
+<Show/>
 </div>
 
   )
