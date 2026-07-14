@@ -5,7 +5,9 @@ import Child from './components/Child'
 import LoginPage from './components/LoginPage.jsx'
 import Message from './components/Message.jsx'
 import Register from './components/Register'
+import SearchBar from './components/SearchBar.jsx'
 import Show from './components/Show.jsx'
+import SpeedCalculator from './components/SpeedCalculator.jsx'
 import StudentsList from './components/StudentsList.jsx'
 import VegetablesList from './components/VegetablesList.jsx'
 import WeatherInfo from './components/WeatherInfo'
@@ -39,7 +41,9 @@ let user = 'admin'
 {/* <StudentsList/> */}
 {/* <VegetablesList/> */}
 {/* <Message/> */}
-<Show/>
+{/* <Show/> */}
+{/* <SearchBar/> */}
+<SpeedCalculator/>
 </div>
 
   )

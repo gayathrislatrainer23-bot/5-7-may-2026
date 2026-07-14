@@ -1,4 +1,4 @@
-6/7/2026
+<!-- 6/7/2026 ----------------------------------------------------->
 
 1.React- js library
 2.vite && cra
@@ -118,7 +118,8 @@ Roll No  Name    Grade
 2       Rahul      B
 3       Deepak     A+
 
-<!-- 13/7/2026 -->
+<!-- 13/7/2026 -------------------------------------------------->
+
 Events  in React?
 An Event is an action performed by the user or something that happens in the browser, like:
 Clicking a button
@@ -172,4 +173,5 @@ import {useState} from ' react'
 
 onClick 
 OnClick
-
+<!-- [[12,6],[45,7],6,8]
+[12,6,45,7,6,8] -->
