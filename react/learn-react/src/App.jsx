@@ -2,6 +2,7 @@ import './App.css'
 import AdminDashBoard from './components/AdminDashBoard.jsx'
 import BoxModel from './components/BoxModel'
 import Child from './components/Child'
+import Counter from './components/Counter.jsx'
 import LoginPage from './components/LoginPage.jsx'
 import Message from './components/Message.jsx'
 import Register from './components/Register'
@@ -44,6 +45,7 @@ let user = 'admin'
 {/* <Show/> */}
 {/* <SearchBar/> */}
 <SpeedCalculator/>
+<Counter/>
 </div>
 
   )
