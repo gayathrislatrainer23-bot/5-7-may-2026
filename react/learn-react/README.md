@@ -175,3 +175,10 @@ onClick
 OnClick
 <!-- [[12,6],[45,7],6,8]
 [12,6,45,7,6,8] -->
+
+<!-- 17/7/2026 -->
+
+react router dom
+
+npm i react-router-dom
+
