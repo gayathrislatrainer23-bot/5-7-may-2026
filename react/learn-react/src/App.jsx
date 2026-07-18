@@ -17,6 +17,7 @@ import StudentsList from './components/StudentsList.jsx'
 import VegetablesList from './components/VegetablesList.jsx'
 import WeatherInfo from './components/WeatherInfo'
 import Navbar from './components/Navbar.jsx'
+import Profile from './pages/Profile.jsx'
 function App() {
   let age = 23
   let userName  = 'Raju'
@@ -37,6 +38,8 @@ let user = 'admin'
   <Route path='/' element={<BoxModel/>}  />
   <Route path='/login' element={<LoginPage/>}  />
   <Route path='/register' element={<Register/>}  />
+  <Route path='/profile' element={<Profile/>}  />
+  <Route path='/counter' element={<Counter/>}  />
 </Routes>
 </BrowserRouter>
   <p>home</p>
