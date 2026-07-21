@@ -40,9 +40,10 @@ let user = 'admin'
   <Route path='/register' element={<Register/>}  />
   <Route path='/profile' element={<Profile/>}  />
   <Route path='/counter' element={<Counter/>}  />
+  <Route path='/admin' element={<AdminDashBoard/>}  />
 </Routes>
 </BrowserRouter>
-  <p>home</p>
+  {/* <p>home</p> */}
 </div>
 
   )

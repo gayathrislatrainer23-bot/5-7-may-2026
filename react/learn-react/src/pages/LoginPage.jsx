@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 import { useNavigate } from 'react-router-dom'
-
+import logo from '../assets/logo.webp'
 const LoginPage = ({isLoggin})=>{
     const [name,setName]=useState('')
     const [date,setDate]=useState('')
@@ -23,6 +23,8 @@ const LoginPage = ({isLoggin})=>{
 
   return (
    <>
+   <img src={logo} alt="logo"  width={100}/>
+  
    <form  onSubmit={handleSubmit}>
     <div className="">
         <label htmlFor="">Name:</label>
